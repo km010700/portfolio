@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div name='home' className='h-screen w-full bg-gradient-to-b from-black to-gray-600'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center h-full px-4 md:flex-row'>
-            <div className='flex flex-col mt-32 md:mt-0 justify-center h-full md:mr-4'>
+            <div className='flex flex-col mt-28 md:mt-0 justify-center h-full md:mr-4'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-gray-400 md:text-left'>
                     I am a WordPress Developer & SEO Specialist.
                 </h2>
@@ -25,7 +25,7 @@ const Home = () => {
             </div>
 
             <div className='mt-8 md:mt-0 mx-auto md:mx-0'>
-                <img src={Hero} alt='my profile' className='rounded-2xl mx-auto w-2/3 md:w-full'/>
+                <img src={Hero} alt='my profile' className='rounded-2xl mx-auto w-2/3 md:w-full max-w-sm md:max-w-none'/>
             </div>
         </div>
     </div>
