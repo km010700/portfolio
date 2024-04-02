@@ -1,0 +1,11 @@
+@media (orientation: landscape) {
+    .max-w-screen-lg{
+        max-width: 80vw; /*Adjust the width as needed*/
+    }
+}
+
+@media (orientation: portrait) {
+    .max-w-screen-lg{
+        max-width: 100%; /*Take full width*/
+    }
+}

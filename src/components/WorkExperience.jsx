@@ -1,4 +1,5 @@
 import React from 'react'
+import './WorkExperience.css'
 
 const WorkExperience = () => {
   return (
@@ -13,7 +14,7 @@ const WorkExperience = () => {
             <p className='text-xl mt-2 italic'>Aura Innovations Pvt Ltd.</p>
 
              <p className='mt-2 text-slate-300 font-semibold'>July 2023 – Present</p>
-             <p className='text-xl mt-2'>As a WordPress Developer at Aura Innovations Pvt. Ltd, I am responsible for developing custom WordPress themes and plugins to elevate website functionality and user experience. My role extends beyond development, as I actively engage in keyword research and on-page SEO strategies to optimize website content for search engines. By monitoring website performance metrics and implementing technical SEO improvements, I have successfully increased organic search traffic, driving meaningful results for our clients. My commitment to excellence and passion for innovation drive me to constantly push the boundaries of web development, ensuring that every project surpasses expectations and delivers tangible value.</p>
+             <p className='mt-6 md:mt-2'>As a WordPress Developer at Aura Innovations Pvt. Ltd, I am responsible for developing custom WordPress themes and plugins to elevate website functionality and user experience. My role extends beyond development, as I actively engage in keyword research and on-page SEO strategies to optimize website content for search engines. By monitoring website performance metrics and implementing technical SEO improvements, I have successfully increased organic search traffic, driving meaningful results for our clients. My commitment to excellence and passion for innovation drive me to constantly push the boundaries of web development, ensuring that every project surpasses expectations and delivers tangible value.</p>
         </div>
     </div>
   )
