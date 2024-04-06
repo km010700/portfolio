@@ -11,25 +11,29 @@ const Portfolio = () => {
         id: 1,
         src: Aids,
         title: 'National AIDs/STD Control Programme',
-        text: 'In this project, I leveraged MySQL, PHP and CSS to achieve the desired outcomes.'
+        text: 'In this project, I leveraged MySQL, PHP and CSS to achieve the desired outcomes.',
+        link: ''
     },
     {
         id: 2,
         src: QSGS,
         title: 'Quick Stop Grocery Store',
-        text: 'This project was done as a group and we used technologies like MySQL, PHP and CSS.'
+        text: 'This project was done as a group and we used technologies like MySQL, PHP and CSS.',
+        link: ''
     },
     {
         id: 3,
         src: AnnaiHomeCare,
         title: 'Annai Home Care',
-        text: 'This project was executed using WordPress, catering a residence located in Jaffna, Sri Lanka.'
+        text: 'This project was executed using WordPress, catering a residence located in Jaffna, Sri Lanka.',
+        link: 'https://annaihomecare.com'
     },
     {
         id: 4,
         src: PortfolioKasthu,
         title: 'Portfolio',
-        text: 'This portfolio was fully coded in ReactJS and Tailwind CSS.'
+        text: 'This portfolio was fully coded in ReactJS and Tailwind CSS.',
+        link: '/'
     }
 ]
   return (
@@ -42,14 +46,19 @@ const Portfolio = () => {
 
             <div className='card-container'>
                 {
-                    portfolios.map(({id, src, title, text}) => (
+                    portfolios.map(({id, src, title, text, link}) => (
                         <div key={id} className='card'>
-                    <img src={src} alt='' className='card-img'/>
-                    <div className='card-info'>
-                        <h3>{title}</h3>
-                        <p>{text}</p>
-                    </div>
-                </div>
+                            <img src={src} alt='' className='card-img'/>
+                            <div className='card-info'>
+                                <h3>{title}</h3>
+                                <p>{text}</p>
+                                {link && (
+                                    <a href={link} className='button-link'>
+                                    <button className='btn'>Visit Project</button>
+                                </a>
+                                )}
+                            </div>
+                        </div>
                     ))
                 }
             </div>

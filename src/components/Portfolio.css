@@ -44,6 +44,28 @@
     transform: translateY(0);
 }
 
+.btn{
+    padding: 10px 20px;
+    background-color: rgba(79, 70, 229);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: rgba(65, 56, 194);
+}
+
+.button-link{
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (orientation: landscape) {
     .max-w-screen-lg{
         max-width: 80vw; /*Adjust the width as needed*/
