@@ -5,11 +5,11 @@ const About = () => {
   return (
     <div name='about' className='w-full h-screen bg-gradient-to-b from-gray-600 to-black text-white'>
         <div className='max-w-screen-lg p-9 mx-auto flex flex-col w-full h-full'>
-            <div className='pb-8 mt-44'>
+            <div className='pb-8 mt-48'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-300 text-gray-300'>About</p>
             </div>
 
-            <p className='text-xl mt-10 md:text-left'>I am an experienced WordPress Developer based in Sri Lanka, dedicated to pushing the boundaries of web development and SEO optimization. With a Bachelor's degree in Business Information Systems and a Higher Diploma in Computing and Software Engineering, I bring a unique blend of technical expertise and creative flair to every project.</p>
+            <p className='text-xl md:text-left'>I am an experienced WordPress Developer based in Sri Lanka, dedicated to pushing the boundaries of web development and SEO optimization. With a Bachelor's degree in Business Information Systems and a Higher Diploma in Computing and Software Engineering, I bring a unique blend of technical expertise and creative flair to every project.</p>
 
             <br/>
 
