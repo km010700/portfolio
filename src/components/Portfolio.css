@@ -44,6 +44,10 @@
     transform: translateY(0);
 }
 
+h3{
+    font-weight: 800;
+}
+
 .btn{
     padding: 10px 20px;
     background-color: rgba(79, 70, 229);
