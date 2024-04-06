@@ -24,8 +24,8 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='mt-8 md:mt-0 mx-auto md:mx-0'>
-                <img src={Hero} alt='my profile' className='rounded-2xl mx-auto w-2/3 md:w-full max-w-sm md:max-w-none'/>
+            <div className='mt-8 md:mt-0 mx-auto md:mx-0 w-full md:w-1/2'>
+                <img src={Hero} alt='my profile' className='rounded-2xl mx-auto w-full md:w-auto max-w-sm'/>
             </div>
         </div>
     </div>
