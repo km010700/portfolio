@@ -43,3 +43,21 @@
     opacity: 1;
     transform: translateY(0);
 }
+
+@media (orientation: landscape) {
+    .max-w-screen-lg{
+        max-width: 80vw; /*Adjust the width as needed*/
+    }
+    .max-h-screen-xl{
+        max-height: 80%;
+    }
+}
+
+@media (orientation: portrait) {
+    .max-w-screen-lg{
+        max-width: 100%; /*Take full width*/
+    }
+    .max-h-screen-xl{
+        max-height: 100%;
+    }
+}

@@ -34,8 +34,8 @@ const Portfolio = () => {
 ]
   return (
     <div name='portfolio' className='bg-gradient-to-b from-black to-gray-600 w-full text-white md:h-screen'>
-        <div className='max-w-screen-lg p-9 mx-auto flex flex-col justify-center md:screen'>
-            <div className='pb-8 mt-32'>
+        <div className='max-w-screen-lg max-h-screen-xl p-9 mx-auto flex flex-col justify-center md:screen'>
+            <div className='pb-8 mt-36'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-300 text-gray-300'>Porfolio</p>
                 <p className='py-6'>Welcome to my portfolio, where innovation meets functionality.</p>
             </div>
