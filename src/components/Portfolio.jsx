@@ -31,17 +31,18 @@ const Portfolio = () => {
     {
         id: 4,
         src: PortfolioKasthu,
-        title: 'Portfolio',
+        title: 'My Portfolio',
         text: 'This portfolio was fully coded in ReactJS and Tailwind CSS.',
         link: '/'
     }
 ]
   return (
-    <div name='portfolio' className='bg-gradient-to-b from-black to-gray-600 w-full text-white md:h-screen'>
+    <div name='portfolio' className='bg-gradient-to-b from-black to-gray-500 w-full text-white md:h-screen'>
         <div className='max-w-screen-lg max-h-screen-xl p-9 mx-auto flex flex-col justify-center md:screen'>
             <div className='pb-8 mt-96'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-300 text-gray-300'>Porfolio</p>
                 <p className='py-6'>Welcome to my portfolio, where innovation meets functionality.</p>
+                <p className='text-xs italic'>* Do hover the image to see each project.</p>
             </div>
 
             <div className='card-container'>

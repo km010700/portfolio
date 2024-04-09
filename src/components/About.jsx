@@ -3,7 +3,7 @@ import './About.css'
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-gradient-to-b from-gray-600 to-black text-white'>
+    <div name='about' className='w-full h-screen bg-gradient-to-b from-gray-500 to-black text-white'>
         <div className='max-w-screen-lg p-9 mx-auto flex flex-col w-full h-full'>
             <div className='pb-8 mt-56'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-300 text-gray-300'>About</p>

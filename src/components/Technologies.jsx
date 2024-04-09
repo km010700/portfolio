@@ -39,13 +39,13 @@ const Technologies = () => {
         id: 5,
         src: tailwind,
         title: 'Tailwind',
-        style: 'shadow-teal-500'
+        style: 'shadow-teal-400'
     },
     {
         id: 6,
         src: github,
         title: 'GitHub',
-        style: 'shadow-gray-400'
+        style: 'shadow-white'
     },
     {
         id: 7,
@@ -62,11 +62,11 @@ const Technologies = () => {
   ]
 
   return (
-    <div name='technologies' className='bg-gradient-to-b from-black to-gray-600 w-full h-screen'>
+    <div name='technologies' className='bg-gradient-to-b from-black to-gray-500 w-full h-screen'>
         <div className='max-w-screen-lg mx-auto p-9 flex flex-col justify-center w-full h-full text-white'>
             <div className='pb-8 mt-20'>
                 <p className='text-4xl font-bold border-b-4 p-2 inline border-gray-300 text-gray-300'>Technologies</p>
-                <p className='py-6'>These are the technologies I've worked with</p>
+                <p className='py-6'>These are the technologies I have worked with.</p>
             </div>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8 text-center py-8 px-4 sm:px-0'>
